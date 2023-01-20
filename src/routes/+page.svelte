@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Home page</title>
+    <meta name="description" content="Svelte home page" />
+</svelte:head>
+
 <div class="hero h-full">
 <!--    <div class="hero-overlay bg-opacity-60"></div>-->
     <div class="hero-content text-center">

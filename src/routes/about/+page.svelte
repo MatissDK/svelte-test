@@ -1,3 +1,9 @@
+
+<svelte:head>
+    <title>About page</title>
+    <meta name="description" content="Svelte home page" />
+</svelte:head>
+
 <div class="hero h-full">
     <div class="hero-content flex-col lg:flex-row-reverse">
         <div class="text-center lg:text-left">
