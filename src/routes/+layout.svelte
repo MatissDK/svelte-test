@@ -2,6 +2,7 @@
     import "../app.css";
     import {page} from '$app/stores';
     import Loader from "$lib/common/Loader.svelte";
+    import Avatar from "$lib/common/Avatar.svelte";
     let displayLoader = true;
 </script>
 
@@ -26,6 +27,7 @@
                 <a href="/">PEEPIO</a>
             </div>
             <div class="flex-none hidden lg:block">
+
                 <ul class="menu menu-horizontal">
                     <!-- Navbar menu content here -->
 
@@ -41,11 +43,7 @@
                     </a>
                 </ul>
             </div>
-            <div class="avatar online mx-3">
-                <div class="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                    <img src="https://placeimg.com/192/192/people" />
-                </div>
-            </div>
+            <Avatar/>
         </div>
         <!-- Page content here -->
         <slot/>
